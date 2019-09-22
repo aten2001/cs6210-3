@@ -6,7 +6,7 @@
 #define MAX_DOMAINS 512
 
 #define lowerThreshold 100
-#define higherThreshold 250
+#define higherThreshold 200
 
 
 void printNodeInfo(virNodeInfo info){
@@ -56,7 +56,9 @@ int main(int argc, char** argv){
     fprintf(stderr, "Number of domains: %d\n", numDomains);
 
 	// initialize the data for the memory usage 
+	unsigned long long* unusedVirMemArray = calloc(numDomains, sizeof(unsigned long long));
 	unsigned long long* availableVirMemArray = calloc(numDomains, sizeof(unsigned long long));
+	unsigned long long* totalVirMemArray = calloc(numDomains, sizeof(unsigned long long));
 	// domain mem stat update every second
 	for(int i = 0; i < numDomains; i++){
 		ret = virDomainSetMemoryStatsPeriod(domainIds[i], 1, VIR_DOMAIN_AFFECT_LIVE);
@@ -83,28 +85,28 @@ int main(int argc, char** argv){
             needRefresh = 0;
 			for(int j = 0; j < numSubfields; j++){ 
 					
-				if(memStat[j].tag == VIR_DOMAIN_MEMORY_STAT_UNUSED){
-					unsigned long long unusedMem = memStat[j].val / 1024;
-					printf(" ++ %d: Unused Memory-> %llu\n", i, unusedMem);
+				if(memStat[j].tag == VIR_DOMAIN_MEMORY_STAT_AVAILABLE){
+					availableVirMemArray[i] = memStat[j].val / 1024;
+					printf(" ++ %d: Available Memory-> %llu\n", i, availableVirMemArray[i]);
 
-				}else if(memStat[j].tag == VIR_DOMAIN_MEMORY_STAT_AVAILABLE){
-					unsigned long long availableMem = memStat[j].val / 1024;
-					printf(" ++ %d: Available Memory stats-> %llu\n", i, availableMem);
-                    availableVirMemArray[i] = availableMem;
+				}else if(memStat[j].tag == VIR_DOMAIN_MEMORY_STAT_UNUSED){
+					unsigned long long unusedMem = memStat[j].val / 1024;
+					printf(" ++ %d: Unused Memory stats-> %llu\n", i, unusedMem);
+                    unusedVirMemArray[i] = unusedMem;
                     int deflateIdx = -1;
 					// *********** CLAIMING MEMORY FOR A STARVED PROCESS ******************
-					if( availableMem < lowerThreshold && inited==1 ){ // should probably do something about this
-                        unsigned long long curHighestAvailableMem = 0;
+					if( unusedMem < lowerThreshold && inited==1 ){ // should probably do something about this
+                        unsigned long long curHighestUnusedMem = 0;
 						// who should we deflateIdx? 
 						for(int k = 0; k < numDomains; k++){
 							if(k == i){
 								continue;
 							}
-							unsigned long long curAvailableMem = availableVirMemArray[k];
-							if(curAvailableMem > curHighestAvailableMem){
+							unsigned long long curUnusedMem = unusedVirMemArray[k];
+							if(curUnusedMem > curHighestUnusedMem){
 
-								printf(" %d: %llu: %llu > %llu\n", k, availableVirMemArray[k], curAvailableMem, curHighestAvailableMem);
-								curHighestAvailableMem = curAvailableMem;	
+								printf(" %d: %llu: %llu > %llu\n", k, unusedVirMemArray[k], curUnusedMem, curHighestUnusedMem);
+								curHighestUnusedMem = curUnusedMem;	
 								deflateIdx = k;
 							}						
 						}
@@ -112,18 +114,17 @@ int main(int argc, char** argv){
 						// availableMem is a quarter of the balloon availablility from the thing we're deflating
 
                         unsigned long long memShouldAssign = 0;
-						if(availableVirMemArray[deflateIdx] - (availableVirMemArray[deflateIdx]/2) < lowerThreshold/2){
+						if((unusedVirMemArray[deflateIdx]/2) < lowerThreshold){
 							printf(" !! %d: Reassigning memory from the hypervisor, not another vm\n", i);
-							memShouldAssign = higherThreshold/2;	
+							memShouldAssign = totalVirMemArray[i] - unusedMem+ (lowerThreshold + higherThreshold) / 2;	
 						}
 						else{
-							memShouldAssign = availableVirMemArray[i] + (availableVirMemArray[deflateIdx]/2);
-							printf(" !! %d: Reassigning %llu kb/%llu  of %d \n", i, availableVirMemArray[deflateIdx]/2, availableMem, deflateIdx);
+							memShouldAssign = totalVirMemArray[i] + (unusedVirMemArray[deflateIdx]/2);
+							printf(" !! %d: Reassigning %llu kb/%llu  of %d \n", i, unusedVirMemArray[deflateIdx]/2, totalVirMemArray[deflateIdx], deflateIdx);
 		
-							ret = virDomainSetMemory(domainIds[deflateIdx], (availableVirMemArray[deflateIdx] / 2)* 1024);
+							ret = virDomainSetMemory(domainIds[deflateIdx], (totalVirMemArray[deflateIdx] - unusedVirMemArray[deflateIdx] / 2)* 1024);
 							if( ret == -1){
-								printf(" !!!!! Pin failed, exiting\n");
-								return 1;
+								printf(" !!!!! Pin failed\n");
 							}
 						}
 
@@ -132,23 +133,25 @@ int main(int argc, char** argv){
 						ret = virDomainSetMemory(domainIds[i], memShouldAssign *1024);
 						printf(" !! Assigning %llu to the starved domain --- %d\n", memShouldAssign, ret);
 						if( ret == -1){
-							printf(" !!!!! Pin failed, exiting\n");
-							return 1;
+							printf(" !!!!! Pin failed\n");
 						}
                         needRefresh = 1;
+						inited = 0;
 					}
 					// *********** CLAIMING MEMORY FROM A GREEDY PROCESS to the HV
-					else if(availableMem > higherThreshold && inited == 1) {
+					else if(unusedMem > higherThreshold && inited == 1) {
 						printf(" !! %d: Reassigning back to the hypervisor\n", i);
-						ret = virDomainSetMemory(domainIds[i], (availableMem - higherThreshold)*1024)  ;
+						ret = virDomainSetMemory(domainIds[i], (totalVirMemArray[i] - unusedMem + lowerThreshold + 50 )*1024)  ;
 						if( ret == -1){
 							printf(" !!!!! Pin failed, exiting\n");
 						}
 						needRefresh = 1;
+						inited = 0;
 					}
 
 				}else if(memStat[j].tag == VIR_DOMAIN_MEMORY_STAT_ACTUAL_BALLOON){
-					printf(" ++ %d: Balloon stats-> %llu\n", i, memStat[i].val/ 1024);
+					totalVirMemArray[i] = memStat[j].val/ 1024;
+					printf(" ++ %d: Balloon stats-> %llu\n", i, memStat[j].val/ 1024);
 				}
 			} // for items in memInfo	
 			if(needRefresh == 1){// we need to reclaculate everything

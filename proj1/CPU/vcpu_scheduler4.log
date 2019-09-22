@@ -1,0 +1,644 @@
+proj1-vm1: ([(0, 1, 15450000000, 2)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 13860000000, 1)], [(True, True, True, True)])
+proj1-vm3: ([(0, 1, 13350000000, 0)], [(True, True, True, True)])
+proj1-vm4: ([(0, 1, 12340000000, 3)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 10990000000, 2)], [(True, True, True, True)])
+proj1-vm6: ([(0, 1, 10800000000, 1)], [(True, True, True, True)])
+proj1-vm7: ([(0, 1, 9760000000, 0)], [(True, True, True, True)])
+proj1-vm8: ([(0, 1, 8780000000, 3)], [(True, True, True, True)])
+--------------------------------------------------------------------------------
+0: 0.0 []
+1: 0.0 []
+2: 0.0 []
+3: 0.0 []
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 15940000000, 2)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 14610000000, 0)], [(True, True, True, True)])
+proj1-vm3: ([(0, 1, 13440000000, 0)], [(True, True, True, True)])
+proj1-vm4: ([(0, 1, 12840000000, 1)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 11410000000, 2)], [(True, True, True, True)])
+proj1-vm6: ([(0, 1, 11270000000, 3)], [(True, True, True, True)])
+proj1-vm7: ([(0, 1, 10360000000, 1)], [(True, True, True, True)])
+proj1-vm8: ([(0, 1, 9260000000, 3)], [(True, True, True, True)])
+--------------------------------------------------------------------------------
+0: 84.0 ['proj1-vm2', 'proj1-vm3']
+1: 110.00000000000001 ['proj1-vm4', 'proj1-vm7']
+2: 90.99999999999999 ['proj1-vm1', 'proj1-vm5']
+3: 95.0 ['proj1-vm6', 'proj1-vm8']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 16420000000, 3)], [(False, False, False, True)])
+proj1-vm2: ([(0, 1, 15120000000, 0)], [(True, False, False, False)])
+proj1-vm3: ([(0, 1, 13880000000, 1)], [(False, True, False, False)])
+proj1-vm4: ([(0, 1, 13180000000, 2)], [(False, False, True, False)])
+proj1-vm5: ([(0, 1, 12020000000, 2)], [(False, False, True, False)])
+proj1-vm6: ([(0, 1, 11700000000, 3)], [(False, False, False, True)])
+proj1-vm7: ([(0, 1, 10800000000, 1)], [(False, True, False, False)])
+proj1-vm8: ([(0, 1, 9710000000, 0)], [(True, False, False, False)])
+--------------------------------------------------------------------------------
+0: 96.0 ['proj1-vm2', 'proj1-vm8']
+1: 88.0 ['proj1-vm3', 'proj1-vm7']
+2: 95.0 ['proj1-vm4', 'proj1-vm5']
+3: 90.99999999999999 ['proj1-vm1', 'proj1-vm6']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 16920000000, 3)], [(False, False, False, True)])
+proj1-vm2: ([(0, 1, 15580000000, 0)], [(True, False, False, False)])
+proj1-vm3: ([(0, 1, 14390000000, 1)], [(False, True, False, False)])
+proj1-vm4: ([(0, 1, 13340000000, 2)], [(False, False, True, False)])
+proj1-vm5: ([(0, 1, 12750000000, 2)], [(False, False, True, False)])
+proj1-vm6: ([(0, 1, 12150000000, 3)], [(False, False, False, True)])
+proj1-vm7: ([(0, 1, 11270000000, 1)], [(False, True, False, False)])
+proj1-vm8: ([(0, 1, 10170000000, 0)], [(True, False, False, False)])
+--------------------------------------------------------------------------------
+0: 92.0 ['proj1-vm2', 'proj1-vm8']
+1: 98.0 ['proj1-vm3', 'proj1-vm7']
+2: 89.0 ['proj1-vm4', 'proj1-vm5']
+3: 95.0 ['proj1-vm1', 'proj1-vm6']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 17640000000, 3)], [(False, False, False, True)])
+proj1-vm2: ([(0, 1, 16070000000, 0)], [(True, False, False, False)])
+proj1-vm3: ([(0, 1, 14930000000, 1)], [(False, True, False, False)])
+proj1-vm4: ([(0, 1, 14190000000, 2)], [(False, False, True, False)])
+proj1-vm5: ([(0, 1, 12880000000, 2)], [(False, False, True, False)])
+proj1-vm6: ([(0, 1, 12390000000, 3)], [(False, False, False, True)])
+proj1-vm7: ([(0, 1, 11740000000, 1)], [(False, True, False, False)])
+proj1-vm8: ([(0, 1, 10640000000, 0)], [(True, False, False, False)])
+--------------------------------------------------------------------------------
+0: 96.0 ['proj1-vm2', 'proj1-vm8']
+1: 101.0 ['proj1-vm3', 'proj1-vm7']
+2: 98.0 ['proj1-vm4', 'proj1-vm5']
+3: 96.0 ['proj1-vm1', 'proj1-vm6']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 18400000000, 3)], [(False, False, False, True)])
+proj1-vm2: ([(0, 1, 16570000000, 0)], [(True, False, False, False)])
+proj1-vm3: ([(0, 1, 15790000000, 1)], [(False, True, False, False)])
+proj1-vm4: ([(0, 1, 14810000000, 2)], [(False, False, True, False)])
+proj1-vm5: ([(0, 1, 13250000000, 2)], [(False, False, True, False)])
+proj1-vm6: ([(0, 1, 12640000000, 3)], [(False, False, False, True)])
+proj1-vm7: ([(0, 1, 11870000000, 1)], [(False, True, False, False)])
+proj1-vm8: ([(0, 1, 11110000000, 0)], [(True, False, False, False)])
+--------------------------------------------------------------------------------
+0: 97.0 ['proj1-vm2', 'proj1-vm8']
+1: 99.0 ['proj1-vm3', 'proj1-vm7']
+2: 99.0 ['proj1-vm4', 'proj1-vm5']
+3: 101.0 ['proj1-vm1', 'proj1-vm6']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 18890000000, 3)], [(False, False, False, True)])
+proj1-vm2: ([(0, 1, 17090000000, 0)], [(True, False, False, False)])
+proj1-vm3: ([(0, 1, 16410000000, 1)], [(False, True, False, False)])
+proj1-vm4: ([(0, 1, 15310000000, 2)], [(False, False, True, False)])
+proj1-vm5: ([(0, 1, 13740000000, 2)], [(False, False, True, False)])
+proj1-vm6: ([(0, 1, 13140000000, 3)], [(False, False, False, True)])
+proj1-vm7: ([(0, 1, 12230000000, 1)], [(False, True, False, False)])
+proj1-vm8: ([(0, 1, 11530000000, 0)], [(True, False, False, False)])
+--------------------------------------------------------------------------------
+0: 94.0 ['proj1-vm2', 'proj1-vm8']
+1: 98.0 ['proj1-vm3', 'proj1-vm7']
+2: 99.0 ['proj1-vm4', 'proj1-vm5']
+3: 99.0 ['proj1-vm1', 'proj1-vm6']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 19370000000, 3)], [(False, False, False, True)])
+proj1-vm2: ([(0, 1, 17580000000, 0)], [(True, False, False, False)])
+proj1-vm3: ([(0, 1, 16910000000, 1)], [(False, True, False, False)])
+proj1-vm4: ([(0, 1, 15800000000, 2)], [(False, False, True, False)])
+proj1-vm5: ([(0, 1, 14240000000, 2)], [(False, False, True, False)])
+proj1-vm6: ([(0, 1, 13640000000, 3)], [(False, False, False, True)])
+proj1-vm7: ([(0, 1, 12730000000, 1)], [(False, True, False, False)])
+proj1-vm8: ([(0, 1, 12000000000, 0)], [(True, False, False, False)])
+--------------------------------------------------------------------------------
+0: 96.0 ['proj1-vm2', 'proj1-vm8']
+1: 100.0 ['proj1-vm3', 'proj1-vm7']
+2: 99.0 ['proj1-vm4', 'proj1-vm5']
+3: 98.0 ['proj1-vm1', 'proj1-vm6']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 19690000000, 3)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 18050000000, 0)], [(True, True, True, True)])
+proj1-vm3: ([(0, 1, 17370000000, 1)], [(True, True, True, True)])
+proj1-vm4: ([(0, 1, 16380000000, 2)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 14720000000, 2)], [(True, True, True, True)])
+proj1-vm6: ([(0, 1, 14200000000, 3)], [(True, True, True, True)])
+proj1-vm7: ([(0, 1, 13180000000, 1)], [(True, True, True, True)])
+proj1-vm8: ([(0, 1, 12440000000, 0)], [(True, True, True, True)])
+--------------------------------------------------------------------------------
+0: 90.99999999999999 ['proj1-vm2', 'proj1-vm8']
+1: 91.0 ['proj1-vm3', 'proj1-vm7']
+2: 106.0 ['proj1-vm4', 'proj1-vm5']
+3: 88.00000000000001 ['proj1-vm1', 'proj1-vm6']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 19700000000, 3)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 18650000000, 0)], [(True, True, True, True)])
+proj1-vm3: ([(0, 1, 17950000000, 1)], [(False, True, False, False)])
+proj1-vm4: ([(0, 1, 16980000000, 2)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 15230000000, 0)], [(True, True, True, True)])
+proj1-vm6: ([(0, 1, 14940000000, 3)], [(True, True, True, True)])
+proj1-vm7: ([(0, 1, 13680000000, 3)], [(True, True, True, True)])
+proj1-vm8: ([(0, 1, 12700000000, 3)], [(True, True, True, True)])
+--------------------------------------------------------------------------------
+0: 110.99999999999999 ['proj1-vm2', 'proj1-vm5']
+1: 57.99999999999999 ['proj1-vm3']
+2: 60.0 ['proj1-vm4']
+3: 151.0 ['proj1-vm1', 'proj1-vm6', 'proj1-vm7', 'proj1-vm8']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 19730000000, 3)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 19090000000, 3)], [(True, True, True, True)])
+proj1-vm3: ([(0, 1, 18550000000, 1)], [(False, True, False, False)])
+proj1-vm4: ([(0, 1, 17700000000, 3)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 15830000000, 0)], [(True, True, True, True)])
+proj1-vm6: ([(0, 1, 15570000000, 2)], [(True, True, True, True)])
+proj1-vm7: ([(0, 1, 14210000000, 1)], [(True, True, True, True)])
+proj1-vm8: ([(0, 1, 12850000000, 2)], [(False, False, True, False)])
+--------------------------------------------------------------------------------
+0: 60.0 ['proj1-vm5']
+1: 112.99999999999999 ['proj1-vm3', 'proj1-vm7']
+2: 78.0 ['proj1-vm6', 'proj1-vm8']
+3: 119.0 ['proj1-vm1', 'proj1-vm2', 'proj1-vm4']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 19910000000, 3)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 19420000000, 0)], [(True, True, True, True)])
+proj1-vm3: ([(0, 1, 18970000000, 1)], [(False, True, False, False)])
+proj1-vm4: ([(0, 1, 18130000000, 1)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 16470000000, 3)], [(False, False, False, True)])
+proj1-vm6: ([(0, 1, 16030000000, 2)], [(True, True, True, True)])
+proj1-vm7: ([(0, 1, 14860000000, 0)], [(True, True, True, True)])
+proj1-vm8: ([(0, 1, 13320000000, 2)], [(False, False, True, False)])
+--------------------------------------------------------------------------------
+0: 98.0 ['proj1-vm2', 'proj1-vm7']
+1: 85.0 ['proj1-vm3', 'proj1-vm4']
+2: 93.0 ['proj1-vm6', 'proj1-vm8']
+3: 82.0 ['proj1-vm1', 'proj1-vm5']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 20020000000, 0)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 19680000000, 3)], [(True, True, True, True)])
+proj1-vm3: ([(0, 1, 19310000000, 1)], [(False, True, False, False)])
+proj1-vm4: ([(0, 1, 18720000000, 0)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 16980000000, 2)], [(False, False, True, False)])
+proj1-vm6: ([(0, 1, 16600000000, 1)], [(True, True, True, True)])
+proj1-vm7: ([(0, 1, 15600000000, 3)], [(True, True, True, True)])
+proj1-vm8: ([(0, 1, 13770000000, 2)], [(False, False, True, False)])
+--------------------------------------------------------------------------------
+0: 70.0 ['proj1-vm1', 'proj1-vm4']
+1: 90.99999999999999 ['proj1-vm3', 'proj1-vm6']
+2: 96.0 ['proj1-vm5', 'proj1-vm8']
+3: 100.0 ['proj1-vm2', 'proj1-vm7']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 20110000000, 1)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 19790000000, 0)], [(True, False, False, False)])
+proj1-vm3: ([(0, 1, 19570000000, 1)], [(False, True, False, False)])
+proj1-vm4: ([(0, 1, 19180000000, 1)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 17430000000, 2)], [(False, False, True, False)])
+proj1-vm6: ([(0, 1, 17390000000, 0)], [(True, True, True, True)])
+proj1-vm7: ([(0, 1, 16490000000, 3)], [(True, True, True, True)])
+proj1-vm8: ([(0, 1, 14240000000, 2)], [(False, False, True, False)])
+--------------------------------------------------------------------------------
+0: 90.0 ['proj1-vm2', 'proj1-vm6']
+1: 81.0 ['proj1-vm1', 'proj1-vm3', 'proj1-vm4']
+2: 92.0 ['proj1-vm5', 'proj1-vm8']
+3: 89.0 ['proj1-vm7']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 20510000000, 1)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 20220000000, 0)], [(True, False, False, False)])
+proj1-vm3: ([(0, 1, 19910000000, 0)], [(True, False, False, False)])
+proj1-vm4: ([(0, 1, 19450000000, 3)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 17920000000, 2)], [(False, False, True, False)])
+proj1-vm6: ([(0, 1, 17850000000, 1)], [(True, True, True, True)])
+proj1-vm7: ([(0, 1, 17240000000, 3)], [(True, True, True, True)])
+proj1-vm8: ([(0, 1, 14720000000, 2)], [(False, False, True, False)])
+--------------------------------------------------------------------------------
+0: 77.0 ['proj1-vm2', 'proj1-vm3']
+1: 86.00000000000001 ['proj1-vm1', 'proj1-vm6']
+2: 97.0 ['proj1-vm5', 'proj1-vm8']
+3: 102.0 ['proj1-vm4', 'proj1-vm7']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 20920000000, 3)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 20670000000, 0)], [(True, False, False, False)])
+proj1-vm3: ([(0, 1, 20380000000, 0)], [(True, False, False, False)])
+proj1-vm4: ([(0, 1, 19880000000, 3)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 18390000000, 1)], [(False, True, False, False)])
+proj1-vm6: ([(0, 1, 18160000000, 3)], [(True, True, True, True)])
+proj1-vm7: ([(0, 1, 17680000000, 3)], [(True, True, True, True)])
+proj1-vm8: ([(0, 1, 15280000000, 2)], [(False, False, True, False)])
+--------------------------------------------------------------------------------
+0: 92.0 ['proj1-vm2', 'proj1-vm3']
+1: 47.0 ['proj1-vm5']
+2: 56.00000000000001 ['proj1-vm8']
+3: 159.0 ['proj1-vm1', 'proj1-vm4', 'proj1-vm6', 'proj1-vm7']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 21480000000, 2)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 21090000000, 0)], [(True, False, False, False)])
+proj1-vm3: ([(0, 1, 20800000000, 0)], [(True, False, False, False)])
+proj1-vm4: ([(0, 1, 20290000000, 0)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 18770000000, 1)], [(False, True, False, False)])
+proj1-vm6: ([(0, 1, 18440000000, 2)], [(False, False, True, False)])
+proj1-vm7: ([(0, 1, 17950000000, 1)], [(True, True, True, True)])
+proj1-vm8: ([(0, 1, 15870000000, 2)], [(False, False, True, False)])
+--------------------------------------------------------------------------------
+0: 125.0 ['proj1-vm2', 'proj1-vm3', 'proj1-vm4']
+1: 65.0 ['proj1-vm5', 'proj1-vm7']
+2: 143.00000000000003 ['proj1-vm1', 'proj1-vm6', 'proj1-vm8']
+3: 0.0 []
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 21800000000, 1)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 21530000000, 3)], [(False, False, False, True)])
+proj1-vm3: ([(0, 1, 21040000000, 0)], [(True, False, False, False)])
+proj1-vm4: ([(0, 1, 20640000000, 3)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 19070000000, 1)], [(False, True, False, False)])
+proj1-vm6: ([(0, 1, 18790000000, 2)], [(False, False, True, False)])
+proj1-vm7: ([(0, 1, 18210000000, 1)], [(True, True, True, True)])
+proj1-vm8: ([(0, 1, 16330000000, 2)], [(False, False, True, False)])
+--------------------------------------------------------------------------------
+0: 24.0 ['proj1-vm3']
+1: 88.0 ['proj1-vm1', 'proj1-vm5', 'proj1-vm7']
+2: 81.0 ['proj1-vm6', 'proj1-vm8']
+3: 79.0 ['proj1-vm2', 'proj1-vm4']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 22060000000, 1)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 21740000000, 3)], [(False, False, False, True)])
+proj1-vm3: ([(0, 1, 21400000000, 0)], [(True, False, False, False)])
+proj1-vm4: ([(0, 1, 21060000000, 2)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 19370000000, 1)], [(False, True, False, False)])
+proj1-vm6: ([(0, 1, 19260000000, 0)], [(True, False, False, False)])
+proj1-vm7: ([(0, 1, 18520000000, 1)], [(True, True, True, True)])
+proj1-vm8: ([(0, 1, 16820000000, 2)], [(False, False, True, False)])
+--------------------------------------------------------------------------------
+0: 83.0 ['proj1-vm3', 'proj1-vm6']
+1: 87.00000000000001 ['proj1-vm1', 'proj1-vm5', 'proj1-vm7']
+2: 90.99999999999999 ['proj1-vm4', 'proj1-vm8']
+3: 21.0 ['proj1-vm2']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 22300000000, 1)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 21890000000, 3)], [(False, False, False, True)])
+proj1-vm3: ([(0, 1, 21690000000, 3)], [(False, False, False, True)])
+proj1-vm4: ([(0, 1, 21480000000, 0)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 19650000000, 1)], [(False, True, False, False)])
+proj1-vm6: ([(0, 1, 19660000000, 0)], [(True, False, False, False)])
+proj1-vm7: ([(0, 1, 18800000000, 1)], [(True, True, True, True)])
+proj1-vm8: ([(0, 1, 17460000000, 2)], [(False, False, True, False)])
+--------------------------------------------------------------------------------
+0: 82.0 ['proj1-vm4', 'proj1-vm6']
+1: 80.0 ['proj1-vm1', 'proj1-vm5', 'proj1-vm7']
+2: 64.0 ['proj1-vm8']
+3: 43.99999999999999 ['proj1-vm2', 'proj1-vm3']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 22890000000, 1)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 22440000000, 0)], [(True, False, False, False)])
+proj1-vm3: ([(0, 1, 22270000000, 3)], [(False, False, False, True)])
+proj1-vm4: ([(0, 1, 22350000000, 2)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 20340000000, 1)], [(False, True, False, False)])
+proj1-vm6: ([(0, 1, 20440000000, 0)], [(True, False, False, False)])
+proj1-vm7: ([(0, 1, 19370000000, 2)], [(True, True, True, True)])
+proj1-vm8: ([(0, 1, 18310000000, 3)], [(False, False, False, True)])
+--------------------------------------------------------------------------------
+0: 133.0 ['proj1-vm2', 'proj1-vm6']
+1: 127.99999999999999 ['proj1-vm1', 'proj1-vm5']
+2: 144.0 ['proj1-vm4', 'proj1-vm7']
+3: 143.0 ['proj1-vm3', 'proj1-vm8']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 23330000000, 2)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 22890000000, 2)], [(False, False, True, False)])
+proj1-vm3: ([(0, 1, 22780000000, 3)], [(False, False, False, True)])
+proj1-vm4: ([(0, 1, 22780000000, 3)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 20780000000, 1)], [(False, True, False, False)])
+proj1-vm6: ([(0, 1, 20830000000, 0)], [(True, False, False, False)])
+proj1-vm7: ([(0, 1, 19770000000, 0)], [(True, True, True, True)])
+proj1-vm8: ([(0, 1, 18700000000, 3)], [(False, False, False, True)])
+--------------------------------------------------------------------------------
+0: 79.0 ['proj1-vm6', 'proj1-vm7']
+1: 44.0 ['proj1-vm5']
+2: 89.0 ['proj1-vm1', 'proj1-vm2']
+3: 133.0 ['proj1-vm3', 'proj1-vm4', 'proj1-vm8']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 23660000000, 2)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 23310000000, 2)], [(False, False, True, False)])
+proj1-vm3: ([(0, 1, 23180000000, 0)], [(True, False, False, False)])
+proj1-vm4: ([(0, 1, 23170000000, 3)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 21400000000, 1)], [(False, True, False, False)])
+proj1-vm6: ([(0, 1, 21340000000, 0)], [(True, False, False, False)])
+proj1-vm7: ([(0, 1, 20190000000, 3)], [(True, True, True, True)])
+proj1-vm8: ([(0, 1, 19040000000, 3)], [(False, False, False, True)])
+--------------------------------------------------------------------------------
+0: 91.0 ['proj1-vm3', 'proj1-vm6']
+1: 62.0 ['proj1-vm5']
+2: 75.0 ['proj1-vm1', 'proj1-vm2']
+3: 115.00000000000001 ['proj1-vm4', 'proj1-vm7', 'proj1-vm8']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 24080000000, 2)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 23700000000, 2)], [(False, False, True, False)])
+proj1-vm3: ([(0, 1, 23660000000, 0)], [(True, False, False, False)])
+proj1-vm4: ([(0, 1, 23610000000, 3)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 21940000000, 1)], [(False, True, False, False)])
+proj1-vm6: ([(0, 1, 21850000000, 0)], [(True, False, False, False)])
+proj1-vm7: ([(0, 1, 20470000000, 3)], [(True, True, True, True)])
+proj1-vm8: ([(0, 1, 19400000000, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 99.0 ['proj1-vm3', 'proj1-vm6']
+1: 90.0 ['proj1-vm5', 'proj1-vm8']
+2: 81.0 ['proj1-vm1', 'proj1-vm2']
+3: 72.0 ['proj1-vm4', 'proj1-vm7']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 24560000000, 3)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 24160000000, 2)], [(False, False, True, False)])
+proj1-vm3: ([(0, 1, 24090000000, 1)], [(False, True, False, False)])
+proj1-vm4: ([(0, 1, 24120000000, 3)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 22340000000, 1)], [(False, True, False, False)])
+proj1-vm6: ([(0, 1, 22490000000, 0)], [(True, False, False, False)])
+proj1-vm7: ([(0, 1, 20880000000, 0)], [(True, True, True, True)])
+proj1-vm8: ([(0, 1, 19770000000, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 105.0 ['proj1-vm6', 'proj1-vm7']
+1: 120.00000000000001 ['proj1-vm3', 'proj1-vm5', 'proj1-vm8']
+2: 46.0 ['proj1-vm2']
+3: 99.0 ['proj1-vm1', 'proj1-vm4']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 25210000000, 3)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 24830000000, 2)], [(False, False, True, False)])
+proj1-vm3: ([(0, 1, 24490000000, 1)], [(False, True, False, False)])
+proj1-vm4: ([(0, 1, 24640000000, 0)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 22670000000, 1)], [(False, True, False, False)])
+proj1-vm6: ([(0, 1, 22950000000, 3)], [(False, False, False, True)])
+proj1-vm7: ([(0, 1, 21380000000, 0)], [(True, True, True, True)])
+proj1-vm8: ([(0, 1, 20020000000, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 102.0 ['proj1-vm4', 'proj1-vm7']
+1: 98.0 ['proj1-vm3', 'proj1-vm5', 'proj1-vm8']
+2: 67.0 ['proj1-vm2']
+3: 111.00000000000001 ['proj1-vm1', 'proj1-vm6']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 25750000000, 3)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 25300000000, 2)], [(False, False, True, False)])
+proj1-vm3: ([(0, 1, 24900000000, 1)], [(False, True, False, False)])
+proj1-vm4: ([(0, 1, 25490000000, 0)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 22980000000, 1)], [(False, True, False, False)])
+proj1-vm6: ([(0, 1, 23520000000, 3)], [(False, False, False, True)])
+proj1-vm7: ([(0, 1, 21750000000, 2)], [(False, False, True, False)])
+proj1-vm8: ([(0, 1, 20260000000, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 85.0 ['proj1-vm4']
+1: 96.0 ['proj1-vm3', 'proj1-vm5', 'proj1-vm8']
+2: 84.0 ['proj1-vm2', 'proj1-vm7']
+3: 110.99999999999999 ['proj1-vm1', 'proj1-vm6']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 26550000000, 3)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 25770000000, 2)], [(False, False, True, False)])
+proj1-vm3: ([(0, 1, 25270000000, 1)], [(False, True, False, False)])
+proj1-vm4: ([(0, 1, 26380000000, 0)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 23250000000, 1)], [(False, True, False, False)])
+proj1-vm6: ([(0, 1, 23820000000, 2)], [(False, False, True, False)])
+proj1-vm7: ([(0, 1, 22080000000, 2)], [(False, False, True, False)])
+proj1-vm8: ([(0, 1, 20610000000, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 89.0 ['proj1-vm4']
+1: 99.0 ['proj1-vm3', 'proj1-vm5', 'proj1-vm8']
+2: 110.00000000000001 ['proj1-vm2', 'proj1-vm6', 'proj1-vm7']
+3: 80.0 ['proj1-vm1']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 27180000000, 3)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 26120000000, 3)], [(False, False, False, True)])
+proj1-vm3: ([(0, 1, 25570000000, 1)], [(False, True, False, False)])
+proj1-vm4: ([(0, 1, 27280000000, 0)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 23530000000, 1)], [(False, True, False, False)])
+proj1-vm6: ([(0, 1, 24360000000, 2)], [(False, False, True, False)])
+proj1-vm7: ([(0, 1, 22380000000, 2)], [(False, False, True, False)])
+proj1-vm8: ([(0, 1, 21000000000, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 90.0 ['proj1-vm4']
+1: 97.00000000000001 ['proj1-vm3', 'proj1-vm5', 'proj1-vm8']
+2: 84.00000000000001 ['proj1-vm6', 'proj1-vm7']
+3: 98.0 ['proj1-vm1', 'proj1-vm2']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 27630000000, 3)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 26470000000, 3)], [(False, False, False, True)])
+proj1-vm3: ([(0, 1, 26020000000, 0)], [(True, False, False, False)])
+proj1-vm4: ([(0, 1, 28040000000, 0)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 23940000000, 1)], [(False, True, False, False)])
+proj1-vm6: ([(0, 1, 24900000000, 2)], [(False, False, True, False)])
+proj1-vm7: ([(0, 1, 22800000000, 2)], [(False, False, True, False)])
+proj1-vm8: ([(0, 1, 21350000000, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 121.0 ['proj1-vm3', 'proj1-vm4']
+1: 76.0 ['proj1-vm5', 'proj1-vm8']
+2: 96.0 ['proj1-vm6', 'proj1-vm7']
+3: 80.0 ['proj1-vm1', 'proj1-vm2']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 28000000000, 2)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 27070000000, 3)], [(False, False, False, True)])
+proj1-vm3: ([(0, 1, 26520000000, 0)], [(True, False, False, False)])
+proj1-vm4: ([(0, 1, 28490000000, 2)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 24330000000, 1)], [(False, True, False, False)])
+proj1-vm6: ([(0, 1, 25370000000, 0)], [(True, False, False, False)])
+proj1-vm7: ([(0, 1, 23330000000, 2)], [(False, False, True, False)])
+proj1-vm8: ([(0, 1, 21730000000, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 97.0 ['proj1-vm3', 'proj1-vm6']
+1: 77.0 ['proj1-vm5', 'proj1-vm8']
+2: 135.0 ['proj1-vm1', 'proj1-vm4', 'proj1-vm7']
+3: 60.0 ['proj1-vm2']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 28550000000, 2)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 27540000000, 3)], [(False, False, False, True)])
+proj1-vm3: ([(0, 1, 26950000000, 0)], [(True, False, False, False)])
+proj1-vm4: ([(0, 1, 29040000000, 3)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 24800000000, 1)], [(False, True, False, False)])
+proj1-vm6: ([(0, 1, 25860000000, 0)], [(True, False, False, False)])
+proj1-vm7: ([(0, 1, 23700000000, 2)], [(False, False, True, False)])
+proj1-vm8: ([(0, 1, 22120000000, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 92.0 ['proj1-vm3', 'proj1-vm6']
+1: 86.0 ['proj1-vm5', 'proj1-vm8']
+2: 92.0 ['proj1-vm1', 'proj1-vm7']
+3: 102.0 ['proj1-vm2', 'proj1-vm4']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 29320000000, 3)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 28000000000, 1)], [(False, True, False, False)])
+proj1-vm3: ([(0, 1, 27380000000, 0)], [(True, False, False, False)])
+proj1-vm4: ([(0, 1, 29800000000, 2)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 25140000000, 1)], [(False, True, False, False)])
+proj1-vm6: ([(0, 1, 26410000000, 0)], [(True, False, False, False)])
+proj1-vm7: ([(0, 1, 23910000000, 2)], [(False, False, True, False)])
+proj1-vm8: ([(0, 1, 22430000000, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 98.0 ['proj1-vm3', 'proj1-vm6']
+1: 111.00000000000001 ['proj1-vm2', 'proj1-vm5', 'proj1-vm8']
+2: 97.0 ['proj1-vm4', 'proj1-vm7']
+3: 77.0 ['proj1-vm1']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 30310000000, 3)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 28490000000, 1)], [(False, True, False, False)])
+proj1-vm3: ([(0, 1, 27850000000, 0)], [(True, False, False, False)])
+proj1-vm4: ([(0, 1, 30360000000, 2)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 25270000000, 1)], [(False, True, False, False)])
+proj1-vm6: ([(0, 1, 26930000000, 0)], [(True, False, False, False)])
+proj1-vm7: ([(0, 1, 24340000000, 2)], [(False, False, True, False)])
+proj1-vm8: ([(0, 1, 22800000000, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 99.0 ['proj1-vm3', 'proj1-vm6']
+1: 99.0 ['proj1-vm2', 'proj1-vm5', 'proj1-vm8']
+2: 99.0 ['proj1-vm4', 'proj1-vm7']
+3: 99.0 ['proj1-vm1']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 31200000000, 3)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 28850000000, 1)], [(False, True, False, False)])
+proj1-vm3: ([(0, 1, 28350000000, 0)], [(True, False, False, False)])
+proj1-vm4: ([(0, 1, 30980000000, 2)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 25610000000, 1)], [(False, True, False, False)])
+proj1-vm6: ([(0, 1, 27420000000, 0)], [(True, False, False, False)])
+proj1-vm7: ([(0, 1, 24710000000, 2)], [(False, False, True, False)])
+proj1-vm8: ([(0, 1, 23110000000, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 99.0 ['proj1-vm3', 'proj1-vm6']
+1: 101.0 ['proj1-vm2', 'proj1-vm5', 'proj1-vm8']
+2: 99.0 ['proj1-vm4', 'proj1-vm7']
+3: 89.0 ['proj1-vm1']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 31890000000, 2)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 29430000000, 3)], [(False, False, False, True)])
+proj1-vm3: ([(0, 1, 28850000000, 0)], [(True, False, False, False)])
+proj1-vm4: ([(0, 1, 31450000000, 3)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 26020000000, 1)], [(False, True, False, False)])
+proj1-vm6: ([(0, 1, 27900000000, 0)], [(True, False, False, False)])
+proj1-vm7: ([(0, 1, 25010000000, 2)], [(False, False, True, False)])
+proj1-vm8: ([(0, 1, 23510000000, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 98.0 ['proj1-vm3', 'proj1-vm6']
+1: 81.0 ['proj1-vm5', 'proj1-vm8']
+2: 99.0 ['proj1-vm1', 'proj1-vm7']
+3: 104.99999999999999 ['proj1-vm2', 'proj1-vm4']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 32450000000, 2)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 30100000000, 3)], [(False, False, False, True)])
+proj1-vm3: ([(0, 1, 29340000000, 0)], [(True, False, False, False)])
+proj1-vm4: ([(0, 1, 32090000000, 1)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 26300000000, 3)], [(False, False, False, True)])
+proj1-vm6: ([(0, 1, 28420000000, 0)], [(True, False, False, False)])
+proj1-vm7: ([(0, 1, 25410000000, 2)], [(False, False, True, False)])
+proj1-vm8: ([(0, 1, 23830000000, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 101.0 ['proj1-vm3', 'proj1-vm6']
+1: 96.0 ['proj1-vm4', 'proj1-vm8']
+2: 96.00000000000001 ['proj1-vm1', 'proj1-vm7']
+3: 95.0 ['proj1-vm2', 'proj1-vm5']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 33130000000, 2)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 30610000000, 3)], [(False, False, False, True)])
+proj1-vm3: ([(0, 1, 29850000000, 0)], [(True, False, False, False)])
+proj1-vm4: ([(0, 1, 32770000000, 1)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 26800000000, 3)], [(False, False, False, True)])
+proj1-vm6: ([(0, 1, 28940000000, 0)], [(True, False, False, False)])
+proj1-vm7: ([(0, 1, 25720000000, 2)], [(False, False, True, False)])
+proj1-vm8: ([(0, 1, 24130000000, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 103.0 ['proj1-vm3', 'proj1-vm6']
+1: 98.0 ['proj1-vm4', 'proj1-vm8']
+2: 99.0 ['proj1-vm1', 'proj1-vm7']
+3: 101.0 ['proj1-vm2', 'proj1-vm5']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 33630000000, 2)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 31120000000, 3)], [(False, False, False, True)])
+proj1-vm3: ([(0, 1, 30340000000, 0)], [(True, False, False, False)])
+proj1-vm4: ([(0, 1, 33500000000, 1)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 27300000000, 3)], [(False, False, False, True)])
+proj1-vm6: ([(0, 1, 29430000000, 0)], [(True, False, False, False)])
+proj1-vm7: ([(0, 1, 26220000000, 2)], [(False, False, True, False)])
+proj1-vm8: ([(0, 1, 24350000000, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 98.0 ['proj1-vm3', 'proj1-vm6']
+1: 95.0 ['proj1-vm4', 'proj1-vm8']
+2: 100.0 ['proj1-vm1', 'proj1-vm7']
+3: 101.0 ['proj1-vm2', 'proj1-vm5']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 34130000000, 2)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 31610000000, 3)], [(False, False, False, True)])
+proj1-vm3: ([(0, 1, 30850000000, 0)], [(True, False, False, False)])
+proj1-vm4: ([(0, 1, 34130000000, 1)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 27810000000, 3)], [(False, False, False, True)])
+proj1-vm6: ([(0, 1, 29930000000, 0)], [(True, False, False, False)])
+proj1-vm7: ([(0, 1, 26720000000, 2)], [(False, False, True, False)])
+proj1-vm8: ([(0, 1, 24660000000, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 101.0 ['proj1-vm3', 'proj1-vm6']
+1: 94.0 ['proj1-vm4', 'proj1-vm8']
+2: 100.0 ['proj1-vm1', 'proj1-vm7']
+3: 100.0 ['proj1-vm2', 'proj1-vm5']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 34640000000, 2)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 32130000000, 3)], [(False, False, False, True)])
+proj1-vm3: ([(0, 1, 31380000000, 0)], [(True, False, False, False)])
+proj1-vm4: ([(0, 1, 34750000000, 1)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 28300000000, 3)], [(False, False, False, True)])
+proj1-vm6: ([(0, 1, 30390000000, 0)], [(True, False, False, False)])
+proj1-vm7: ([(0, 1, 27220000000, 2)], [(False, False, True, False)])
+proj1-vm8: ([(0, 1, 24950000000, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 99.0 ['proj1-vm3', 'proj1-vm6']
+1: 90.99999999999999 ['proj1-vm4', 'proj1-vm8']
+2: 101.0 ['proj1-vm1', 'proj1-vm7']
+3: 101.0 ['proj1-vm2', 'proj1-vm5']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 35200000000, 2)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 32540000000, 3)], [(False, False, False, True)])
+proj1-vm3: ([(0, 1, 31810000000, 0)], [(True, False, False, False)])
+proj1-vm4: ([(0, 1, 35230000000, 2)], [(True, True, True, True)])
+proj1-vm5: ([(0, 1, 28710000000, 3)], [(False, False, False, True)])
+proj1-vm6: ([(0, 1, 30870000000, 0)], [(True, False, False, False)])
+proj1-vm7: ([(0, 1, 27720000000, 1)], [(False, True, False, False)])
+proj1-vm8: ([(0, 1, 25230000000, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 90.99999999999999 ['proj1-vm3', 'proj1-vm6']
+1: 78.0 ['proj1-vm7', 'proj1-vm8']
+2: 104.0 ['proj1-vm1', 'proj1-vm4']
+3: 82.0 ['proj1-vm2', 'proj1-vm5']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 35930000000, 2)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 32960000000, 3)], [(False, False, False, True)])
+proj1-vm3: ([(0, 1, 32270000000, 0)], [(True, False, False, False)])
+proj1-vm4: ([(0, 1, 35640000000, 1)], [(False, True, False, False)])
+proj1-vm5: ([(0, 1, 29150000000, 3)], [(False, False, False, True)])
+proj1-vm6: ([(0, 1, 31330000000, 0)], [(True, False, False, False)])
+proj1-vm7: ([(0, 1, 28140000000, 1)], [(False, True, False, False)])
+proj1-vm8: ([(0, 1, 25490000000, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 92.0 ['proj1-vm3', 'proj1-vm6']
+1: 108.99999999999999 ['proj1-vm4', 'proj1-vm7', 'proj1-vm8']
+2: 73.0 ['proj1-vm1']
+3: 86.0 ['proj1-vm2', 'proj1-vm5']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 36780000000, 2)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 33450000000, 3)], [(False, False, False, True)])
+proj1-vm3: ([(0, 1, 32730000000, 0)], [(True, False, False, False)])
+proj1-vm4: ([(0, 1, 36020000000, 1)], [(False, True, False, False)])
+proj1-vm5: ([(0, 1, 29640000000, 3)], [(False, False, False, True)])
+proj1-vm6: ([(0, 1, 31820000000, 0)], [(True, False, False, False)])
+proj1-vm7: ([(0, 1, 28520000000, 1)], [(False, True, False, False)])
+proj1-vm8: ([(0, 1, 25740000000, 1)], [(False, True, False, False)])
+--------------------------------------------------------------------------------
+0: 95.0 ['proj1-vm3', 'proj1-vm6']
+1: 101.0 ['proj1-vm4', 'proj1-vm7', 'proj1-vm8']
+2: 85.0 ['proj1-vm1']
+3: 98.0 ['proj1-vm2', 'proj1-vm5']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 37480000000, 2)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 33970000000, 3)], [(False, False, False, True)])
+proj1-vm3: ([(0, 1, 33230000000, 0)], [(True, False, False, False)])
+proj1-vm4: ([(0, 1, 36450000000, 1)], [(False, True, False, False)])
+proj1-vm5: ([(0, 1, 30140000000, 3)], [(False, False, False, True)])
+proj1-vm6: ([(0, 1, 32330000000, 0)], [(True, False, False, False)])
+proj1-vm7: ([(0, 1, 28960000000, 1)], [(False, True, False, False)])
+proj1-vm8: ([(0, 1, 26110000000, 2)], [(False, False, True, False)])
+--------------------------------------------------------------------------------
+0: 101.0 ['proj1-vm3', 'proj1-vm6']
+1: 87.0 ['proj1-vm4', 'proj1-vm7']
+2: 106.99999999999999 ['proj1-vm1', 'proj1-vm8']
+3: 102.0 ['proj1-vm2', 'proj1-vm5']
+--------------------------------------------------------------------------------
+proj1-vm1: ([(0, 1, 37930000000, 3)], [(True, True, True, True)])
+proj1-vm2: ([(0, 1, 34410000000, 2)], [(False, False, True, False)])
+proj1-vm3: ([(0, 1, 33740000000, 0)], [(True, False, False, False)])
+proj1-vm4: ([(0, 1, 36950000000, 1)], [(False, True, False, False)])
+proj1-vm5: ([(0, 1, 30840000000, 3)], [(False, False, False, True)])
+proj1-vm6: ([(0, 1, 32830000000, 0)], [(True, False, False, False)])
+proj1-vm7: ([(0, 1, 29450000000, 1)], [(False, True, False, False)])
+proj1-vm8: ([(0, 1, 26420000000, 2)], [(False, False, True, False)])
+--------------------------------------------------------------------------------
+0: 101.0 ['proj1-vm3', 'proj1-vm6']
+1: 99.0 ['proj1-vm4', 'proj1-vm7']
+2: 75.0 ['proj1-vm2', 'proj1-vm8']
+3: 114.99999999999999 ['proj1-vm1', 'proj1-vm5']
+--------------------------------------------------------------------------------

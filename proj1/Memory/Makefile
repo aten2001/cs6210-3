@@ -1,2 +1,2 @@
 all:
-	gcc memory_coordinator.c -lvirt -o mem
+	gcc memory_coordinator.c -lvirt -o memory_coordinator
