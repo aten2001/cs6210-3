@@ -8,10 +8,8 @@
 #define MAX_DOMAINS 512
 
 void printNodeInfo(virNodeInfo info){
-	printf(" n : model == %s\n", info.model);
-//	printf(" n : memory size  == %lu kb\n", info.memory);
-	printf(" n : # of active CPUs == %d\n", info.cpus);
-	printf(" n : expected CPU frequency  == %d mHz\n\n", info.mhz);
+	printf(" num of active CPUs == %d\n", info.cpus);
+	printf(" expected CPU frequency  == %d mHz\n\n", info.mhz);
 
 }
 
@@ -110,7 +108,7 @@ int main(int argc, char **argv) {
         domains[i] = virDomainLookupByID(conn, domainIds[i]);
 		ret = virDomainPinVcpu(domains[i], 0, &cpuMap, VIR_CPU_MAPLEN(nodeinfo.cpus));
 	
-		printf(" == vcpu %d: set to pcpu %d\n", i, cpuMap);
+		printf(" Vcpu %d: set to Pcpu %d\n", i, cpuMap);
 
 		cpuMap <<= 1;
 		// note that the map[0] code is specialized to 8 PCPUs tops, otherwise problems. 	

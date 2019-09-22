@@ -1,3 +1,8 @@
+/*
+    due to limited physical memory
+    changed maxMem to 1024 Mb
+*/
+
 proj1-vm1: 512.0 293.95703125
 proj1-vm2: 512.0 297.59375
 proj1-vm3: 512.0 275.7109375

@@ -1,3 +1,8 @@
+/*
+    changed maxMem to 1024 Mb
+    Still crashed due to limited physical memory
+*/
+
 proj1-vm1: 254.0 150.5546875
 proj1-vm2: 356.0 150.84375
 proj1-vm3: 360.0 154.2265625

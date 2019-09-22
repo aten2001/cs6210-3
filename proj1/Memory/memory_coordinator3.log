@@ -1,3 +1,10 @@
+/*
+    due to limited physical memory
+    changed maxMem to 1024 Mb
+    changed stopping block size of "B" in run.cpp to 256 Mb
+*/
+
+
 proj1-vm1: 253.0 134.2578125
 proj1-vm2: 253.0 134.578125
 proj1-vm3: 512.0 152.15625
