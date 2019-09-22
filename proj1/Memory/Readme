@@ -1,0 +1,11 @@
+run
+$ make
+to compile
+
+
+
+set a lowthreshold and a highthreshold for unused memory for each domain.
+
+For any domain, if the used memory is higher than the highthreshold, give some memory back to the hypervisor.
+
+If the used memory is lower than the lowthreshold, either assign more memory from the hypervisor or from another domain that has sufficient unused memory.

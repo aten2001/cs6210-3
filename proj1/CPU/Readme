@@ -1,0 +1,13 @@
+run
+$ make
+to compile
+
+
+
+At first, assign each Vcpu to Pcpu according to its ID ( assignd to #(VcpuId % numOfPcpu) of Pcpu )
+
+using the simplest strategy to schedule the Vcpu.
+
+Calculate the usage percentage of each Pcpu every round.
+
+if the difference between the highest and lowest is bigger than some threshold, assgn one Vcpu running on the highest Pcpu to the lowest Pcpu.
